@@ -16,7 +16,6 @@ void TurnRight();
 ///
 void KarelProgram() {
     bool is_even = false;
-/// @todo Добавить программу для Карела
     while(FrontIsClear()){
         while(FrontIsClear()){
             PickAllBeepers();
@@ -57,7 +56,7 @@ void TurnRight(){
 /// Стартовая функция
 ///
 int main() {
-    LoadWorld("worlds/CB_03.w");
+    LoadWorld("worlds/CB_01.w");
     KarelProgram();
     Finish();
     return 0;
